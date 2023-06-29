@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 header {
-    margin: 1rem 0;
+    margin-top: 1rem;
 }
 
 .container {
