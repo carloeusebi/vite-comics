@@ -15,6 +15,7 @@ a {
     align-items: center;
     padding: .75rem 1rem;
     color: white;
+    font-weight: 900;
     border: 2px solid $dc-blue;
     cursor: pointer;
 }
