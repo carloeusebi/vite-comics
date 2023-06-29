@@ -17,10 +17,6 @@ export default {
 </template>
 
 <style scoped>
-header {
-    margin-top: 1rem;
-}
-
 .container {
     display: flex;
     justify-content: space-between;
