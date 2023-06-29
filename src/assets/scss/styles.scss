@@ -7,10 +7,20 @@
   box-sizing: border-box;
 }
 
+// Generals
+
 body {
   font-family: $main-font;
 }
 
-p {
-  font-family: $secondary-font;
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Utilities
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }

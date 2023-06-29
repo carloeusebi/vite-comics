@@ -3,9 +3,7 @@ export default {
 }
 </script>
 
-<template>
-    <div>Footer</div>
-</template>
+<template></template>
 
 <styles>
 

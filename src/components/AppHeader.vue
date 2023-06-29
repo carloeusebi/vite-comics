@@ -1,12 +1,28 @@
 <script>
+import HeaderLogo from './header/HeaderLogo.vue'
+import HeaderNavbar from './header/HeaderNavbar.vue'
+
 export default {
+    components: { HeaderLogo, HeaderNavbar }
 }
 </script>
 
 <template>
-    <div>Header</div>
+    <header>
+        <div class="container">
+            <HeaderLogo />
+            <HeaderNavbar />
+        </div>
+    </header>
 </template>
 
-<styles>
+<style>
+header {
+    margin: 1.5rem 0;
+}
 
-</styles>
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+</style>
