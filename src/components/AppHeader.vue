@@ -16,9 +16,9 @@ export default {
     </header>
 </template>
 
-<style>
+<style scoped>
 header {
-    margin: 1.5rem 0;
+    margin: 1rem 0;
 }
 
 .container {

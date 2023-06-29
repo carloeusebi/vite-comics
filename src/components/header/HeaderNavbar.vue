@@ -1,18 +1,29 @@
 <script>
+import HeaderLink from './HeaderLink.vue';
+import { navbar } from '@/assets/data'
 export default {
+    data() {
+        return {
+            navbar
+        }
+    },
+    components: { HeaderLink }
 }
 </script>
 
 <template>
-    <ul>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-        <li><a href="#">lorem</a></li>
-    </ul>
+    <nav>
+        <ul>
+            <HeaderLink v-for="item in navbar" :item="item" />
+        </ul>
+    </nav>
 </template>
 
-<styles>
-
-</styles>
+<style scoped>
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+</style>
