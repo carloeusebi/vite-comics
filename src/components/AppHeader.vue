@@ -21,10 +21,11 @@ export default {
 
 <style scoped>
 header {
+    background-color: white;
     position: sticky;
     top: 0;
     left: 0;
-    background-color: white;
+    z-index: 1;
 }
 
 .container {
