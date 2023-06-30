@@ -1,5 +1,9 @@
 <script>
+import MainComicsContainer from './MainComicsContainer.vue';
+
+
 export default {
+    components: { MainComicsContainer }
 }
 </script>
 
@@ -10,9 +14,7 @@ export default {
         </figure>
     </section>
     <section id="content">
-        <div class="container">
-            <h2>Content goes here</h2>
-        </div>
+        <MainComicsContainer />
     </section>
 </template>
 
