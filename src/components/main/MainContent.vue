@@ -3,7 +3,10 @@ import MainComicsContainer from './MainComicsContainer.vue';
 
 
 export default {
-    components: { MainComicsContainer }
+    components: { MainComicsContainer },
+    props: {
+        comics: Array
+    }
 }
 </script>
 
@@ -14,7 +17,7 @@ export default {
         </figure>
     </section>
     <section id="content">
-        <MainComicsContainer />
+        <MainComicsContainer :comics="comics" />
     </section>
 </template>
 

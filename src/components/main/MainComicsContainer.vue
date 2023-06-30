@@ -2,14 +2,17 @@
 import MainComic from './MainComic.vue';
 
 export default {
-    components: { MainComic }
+    components: { MainComic },
+    props: {
+        comics: Array
+    }
 }
 </script>
 
 <template>
     <div class="container">
         <div class="flex-container">
-            <MainComic v-for="i in 12" />
+            <MainComic v-for="comic in comics" :comic="comic" />
         </div>
     </div>
 </template>

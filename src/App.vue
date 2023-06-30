@@ -23,7 +23,7 @@ export default {
 <template>
   <AppHeader :navbar="navbar" />
 
-  <AppMain />
+  <AppMain :comics="comics" />
 
   <AppFooter />
 </template>
