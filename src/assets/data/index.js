@@ -1,4 +1,4 @@
 import navbar from "./_navbar";
-import dcComics from "./_dc-comics";
+import comics from "./_dc-comics";
 
-export { navbar, dcComics };
+export { navbar, comics };
