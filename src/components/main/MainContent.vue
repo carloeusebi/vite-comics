@@ -31,12 +31,8 @@ export default {
 
 #content {
     background-color: $dark_gray;
-
-    .container {
-        height: 100%;
-        display: flex;
-        align-items: center;
-    }
+    position: relative;
+    padding-bottom: 3rem;
 }
 
 h2 {
